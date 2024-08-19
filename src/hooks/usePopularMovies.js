@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const usePopularMovies = () => {
   const dispatch = useDispatch();
-
+ 
 
 const getPopularMovies = async () =>{
   const data = await fetch(
